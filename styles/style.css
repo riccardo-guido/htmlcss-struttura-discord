@@ -1,33 +1,30 @@
 * {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background: lightblue;
-  padding: 10px;
+  padding: 10px 150px;
 }
 .header-box {
-  background: orange;
-  width: 70%;
-  height: 50%;
   display: flex;
-  justify-content: space-between;
+  background: orange;
   border: 1px dashed black;
 }
 
-.logo,
+.logo {
+  width: 25%;
+  border: 1px dashed black;
+  text-align: left;
+}
 .login {
   width: 25%;
   border: 1px dashed black;
+  text-align: end;
 }
 .link {
   width: 50%;
   border: 1px dashed black;
-  align-items: center;
+  text-align: center;
 }
 
 .prima-section {
@@ -83,8 +80,9 @@ header {
   padding: 20px;
 }
 .last-box {
-  height: 100px;
+  height: 400px;
   margin: 0 1px;
+  border: 1px dashed black;
 }
 .red {
   background: salmon;
@@ -93,4 +91,15 @@ header {
 .cyan {
   background: cyan;
   width: 15%;
+}
+
+.container {
+  background: rgb(63, 71, 74);
+  padding: 10px 150px;
+}
+.footer-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px;
+  background-color: aquamarine;
 }
